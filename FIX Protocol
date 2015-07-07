@@ -1,0 +1,9 @@
+Command line examples for working with FIX protocol log files.
+
+Remove SOH and make a message more readable.
+
+Using sed:
+grep something fix.log | sed 's/\x01/ | /g'
+
+Using tr (windows):
+grep something fix.log | tr "\001" "|"
