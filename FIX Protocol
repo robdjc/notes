@@ -7,3 +7,6 @@ grep something fix.log | sed 's/\x01/ | /g'
 
 Using tr (windows):
 grep something fix.log | tr "\001" "|"
+
+Use grep to get a single field (windows):
+grep -o -w "55=[^[:cntrl:]]\+" | sort | uniq -c
