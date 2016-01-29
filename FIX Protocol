@@ -14,3 +14,6 @@ grep -o -w "55=[^[:cntrl:]]\+" | sort | uniq -c
 
 Grep command to return everything in the file and just highlight the matching pattern:
 grep -E "^|ERR" application.log
+
+The above assumes that you already use --color:
+alias grep='grep --color=auto'
