@@ -10,3 +10,7 @@ grep something fix.log | tr "\001" "|"
 
 Use grep to get a single field (windows):
 grep -o -w "55=[^[:cntrl:]]\+" | sort | uniq -c
+
+
+Grep command to return everything in the file and just highlight the matching pattern:
+grep -E "^|ERR" application.log
