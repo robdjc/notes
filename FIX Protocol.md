@@ -24,3 +24,10 @@ Grep for a specific field. Sometimes you want to grep for Tag 39 only, but it ma
 
 `grep -P "\x0139=1\x01" fix.log`
 
+
+
+Example tar commands for moving log and ocnfig directories around: 
+
+`tar -czvf xbog.tar.gz xbog_fix_1`
+`tar -xzvf xbog.tar.gz`
+
