@@ -28,7 +28,7 @@ Grep for a specific field. Sometimes you want to grep for Tag 39 only, but it ma
 
 Example tar commands for moving log and configuration directories: 
 
-`tar -czvf xbog.tar.gz xbog_fix_1`
+`tar -czvf logfolder.tar.gz logfolder`
 
-`tar -xzvf xbog.tar.gz`
+`tar -xzvf logfolder.tar.gz`
 
