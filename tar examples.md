@@ -12,4 +12,4 @@ Example command to view the files in a tar file:
 
 Example command to send files from a tar to stdout:
 
-tar -xOf logs.tar.gz *file_pattern* 
+`tar -xOf logs.tar.gz *file_pattern*
