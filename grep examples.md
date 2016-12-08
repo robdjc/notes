@@ -6,4 +6,4 @@ Return everything in the file and just highlight the matching pattern:
 
 Get a substring between two delimiters from a line.
 
-`grep -o -P '(?<=\[).*(?=\])'
+`grep -o -P '(?<=\[).*(?=\])'`
